@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    scroll-behavior: smooth;
+    
+}
+.front{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, rgba(13, 72, 250, 0.845), 
+    rgba(254, 10, 218, 0.75)), rgba(254,10, 218, 0.75) ;
+   
+}
+.front nav{
+    padding-top: 20px;
+}
+.front ul{
+    float: right;
+
+}
+
+nav li{
+    display: inline-block;
+    list-style: none;
+    
+}
+
+li a{
+    padding: 0px 0px 0px 50px;
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight:bold;
+}
+ul button {
+    padding: 17px 33px;
+    border-radius: 40px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: 900;
+    border: none;
+    margin: 0px 50px 0px 50px;
+    color: white;
+    background-color: transparent;
+    border: 3px solid  rgba(255, 255, 255, 0.45);
+    box-shadow: 5px 1px 180px 10px ;
+    cursor: pointer;
+}
+
+nav #fashion{
+    color: white;
+    font-size: 35px;
+    line-height: 0px;
+    font-family: cursive;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    font-weight: 20;
+    letter-spacing: 5px;
+}
+.logo {
+    color: black;
+    font-size: 40px;
+    
+}
+.numu #Num{
+    color: rgb(172, 27, 27);
+    font-weight: 400;
+    font-size: 60px;
+    letter-spacing: 15px;
+    word-spacing: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+ }
+.numu {
+    width: 60%;
+    height: 60%;
+ 
+    position: absolute;
+    top: 25%;
+    left:3%;
+    
+    
+}
+.numu p{
+     padding-top: 40px;
+    font-size: 25px;
+    color: white;
+    
+}
+.numu #sub{
+    padding: 10px 30px;
+    height: 58px;
+    width: 280px;
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 30px;
+    letter-spacing: 2px;
+    font-weight: 900;
+   
+    background-color: transparent ;
+    color: rgba(255, 255, 255, 0.683);
+    margin-top: 60px;
+    font-family: monospace;
+    border:2px solid rgba(237, 238, 241, 0.986);
+    box-shadow: 0px 1px 150px 2px   rgba(254,10, 218, 0.75);
+    margin-left: 10px;
+              
+}
+ #sub a {
+    color: white;
+    text-decoration: none;
+    
+ }
+ .boc{
+    color: white;
+    padding: 0px 10px;
+    font-size: 30px;
+ }
+.front .photo {
+    height: 57%;
+    width: 28%;
+    /* border: 2px solid white; */
+    background-position: center;
+    position: absolute;
+    bottom:0%;
+    right: 2%;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: inset 10px 2px 900px -40px rgba(13, 72, 250, 0.114) ;
+    filter:drop-shadow(250px  110px  rgba(0, 0, 0, 0.1));
+}
+
+.photo{
+    transform: translateY(7px);
+    background-image: url(DSC_0108.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.arrw{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    animation-name: arrow;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+@keyframes arrow {
+    0%{bottom: 2%;}
+    50%{bottom: 0%;}
+    100%{bottom: 2%;}
+}
